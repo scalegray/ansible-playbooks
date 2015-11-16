@@ -1,0 +1,5 @@
+
+ 
+- hosts: nginx
+  tasks:
+    - include: 'tasks/main.yml'
