@@ -1,0 +1,6 @@
+#ansible playbook for scalegray
+- name: Installing the packages for scalegray - Infrastructure Monitoring System
+  hosts: local
+  sudo: yes
+  roles:
+    - nginx
